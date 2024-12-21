@@ -4,6 +4,7 @@
 
 <pre>
  F
+  
  0	█	0
  0	█	1
  0	█	2
@@ -16,6 +17,7 @@
  Using this layout, we could also read in another letter like H
 
  H
+  
  0	█	0
  0	█	1
  0	█	2
