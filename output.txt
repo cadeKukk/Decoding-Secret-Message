@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "/Users/cadekukk/Documents/F/grid_printer.py", line 1, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
