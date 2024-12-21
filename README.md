@@ -1,40 +1,41 @@
 # Decoding a Secret Message
 
-<pre> Initial test is set up with example grid:
+  Initial test is set up with example grid:
 
-<pre>F
-<pre>0	█	0
-<pre>0	█	1
-<pre>0	█	2
-<pre>1	▀	1
-<pre>1	▀	2
-<pre>2	▀	1
-<pre>2	▀	2
-<pre>3	▀	2
+<pre>
+ F
+ 0	█	0
+ 0	█	1
+ 0	█	2
+ 1	▀	1
+ 1	▀	2
+ 2	▀	1
+ 2	▀	2
+ 3	▀	2
 
-<pre>Using this layout, we could also read in another letter like H
+ Using this layout, we could also read in another letter like H
 
-<pre>H
-<pre>0	█	0
-<pre>0	█	1
-<pre>0	█	2
-<pre>1	▀	2
-<pre>2	▀	2
-<pre>3	▀	2
-<pre>1	▀	1
-<pre>2	▀	1
+ H
+ 0	█	0
+ 0	█	1
+ 0	█	2
+ 1	▀	2
+ 2	▀	2
+ 3	▀	2
+ 1	▀	1
+ 2	▀	1
 
-<pre>The secret message is 
-<pre>████████░     ████████░   ██████████░    ███████░  ██░           ███░ ███░    ███░ ██░     ██░
-<pre>██░     ██░ ███░     ███░ ██░          ███░    ██░ ███░   ███░   ██░    ██░  ██░   ██░     ██░
-<pre>██░     ██░ ██░       ██░ ██░         ███░          ██░  █████░ ███░     ██░██░    ██░     ██░
-<pre>████████░   ██░       ██░ ████████░   ██░           ███░ ██░██░ ██░       ███░     ██████████░
-<pre>██░     ██░ ██░       ██░ ██░         ███░           ██░██░ ██░██░       ██░██░    ██░     ██░
-<pre>██░     ██░ ███░     ███░ ██░          ███░    ██░   ████░   ████░      ██░  ██░   ██░     ██░
-<pre>████████░     ████████░   ██████████░    ███████░     ██░     ██░     ███░    ███░ ██░     ██░
+ The secret message is 
+ ████████░     ████████░   ██████████░    ███████░  ██░           ███░ ███░    ███░ ██░     ██░
+ ██░     ██░ ███░     ███░ ██░          ███░    ██░ ███░   ███░   ██░    ██░  ██░   ██░     ██░
+ ██░     ██░ ██░       ██░ ██░         ███░          ██░  █████░ ███░     ██░██░    ██░     ██░
+ ████████░   ██░       ██░ ████████░   ██░           ███░ ██░██░ ██░       ███░     ██████████░
+ ██░     ██░ ██░       ██░ ██░         ███░           ██░██░ ██░██░       ██░██░    ██░     ██░
+ ██░     ██░ ███░     ███░ ██░          ███░    ██░   ████░   ████░      ██░  ██░   ██░     ██░
+ ████████░     ████████░   ██████████░    ███████░     ██░     ██░     ███░    ███░ ██░     ██░
 
-<pre>You can check the code and make sure that everything functions correctly after installing the dependencies as shown.
-<pre>Running the command:
+ You can check the code and make sure that everything functions correctly after installing the dependencies as shown.
+ Running the command:
 
-<pre>python3 grid_printer.py
+ python3 grid_printer.py
 
